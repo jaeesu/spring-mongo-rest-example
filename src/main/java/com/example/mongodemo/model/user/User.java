@@ -6,6 +6,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @Builder
@@ -18,12 +19,10 @@ public class User {
     @Id
     @Field(name = "_id")
     private String id;
+    @NotNull
     private String name;
     private String email;
     private Integer age;
     private String gender;
-
-    @Field(name = "user_post")
-    private List<Post> postList;
 
 }

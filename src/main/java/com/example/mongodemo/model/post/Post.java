@@ -17,7 +17,7 @@ public class Post {
     @Id
     @Field(name = "_id")
     private Long id;
-
+    private String userId;
     private String title;
     private String content;
     private LocalDateTime timestamp;
