@@ -1,8 +1,8 @@
-package com.example.mongodemo.service;
+package com.example.mongodemo.user.application;
 
-import com.example.mongodemo.model.user.User;
-import com.example.mongodemo.payload.reponse.UserListResponse;
-import com.example.mongodemo.payload.request.UserCreationRequest;
+import com.example.mongodemo.user.domain.User;
+import com.example.mongodemo.user.presentation.out.UserListResponse;
+import com.example.mongodemo.user.presentation.in.UserCreationRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

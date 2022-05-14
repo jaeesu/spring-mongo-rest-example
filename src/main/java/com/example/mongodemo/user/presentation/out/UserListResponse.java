@@ -1,6 +1,6 @@
-package com.example.mongodemo.payload.reponse;
+package com.example.mongodemo.user.presentation.out;
 
-import com.example.mongodemo.model.user.User;
+import com.example.mongodemo.user.domain.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

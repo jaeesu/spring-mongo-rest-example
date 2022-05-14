@@ -1,4 +1,4 @@
-package com.example.mongodemo.model.user;
+package com.example.mongodemo.user.domain;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.*;

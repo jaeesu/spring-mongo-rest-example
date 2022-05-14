@@ -1,8 +1,8 @@
-package com.example.mongodemo.controller;
+package com.example.mongodemo.user.presentation;
 
-import com.example.mongodemo.payload.reponse.UserListResponse;
-import com.example.mongodemo.payload.request.UserCreationRequest;
-import com.example.mongodemo.service.UserService;
+import com.example.mongodemo.user.presentation.out.UserListResponse;
+import com.example.mongodemo.user.presentation.in.UserCreationRequest;
+import com.example.mongodemo.user.application.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

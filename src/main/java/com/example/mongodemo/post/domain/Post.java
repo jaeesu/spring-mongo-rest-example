@@ -1,4 +1,4 @@
-package com.example.mongodemo.model.post;
+package com.example.mongodemo.post.domain;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

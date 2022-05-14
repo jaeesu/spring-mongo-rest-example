@@ -1,6 +1,6 @@
-package com.example.mongodemo.payload.request;
+package com.example.mongodemo.user.presentation.in;
 
-import com.example.mongodemo.model.user.User;
+import com.example.mongodemo.user.domain.User;
 import lombok.Data;
 
 @Data
